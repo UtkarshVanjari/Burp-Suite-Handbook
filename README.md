@@ -1,137 +1,193 @@
+<div align="center">
+
 # 🚀 Burp Suite Professional Handbook
 
-<p align="center">
-  <b>A Comprehensive Guide to Web Application Security Testing with Burp Suite Professional</b>
-</p>
+### A Practical Guide to Web Application Security Testing, VAPT & Bug Bounty Hunting
 
-<p align="center">
-Cybersecurity • Web Security • VAPT • Bug Bounty • OWASP Top 10
-</p>
+![Burp Suite](https://img.shields.io/badge/Burp%20Suite-Professional-orange?style=for-the-badge)
+![Cyber Security](https://img.shields.io/badge/Cyber%20Security-VAPT-red?style=for-the-badge)
+![OWASP](https://img.shields.io/badge/OWASP-Top%2010-green?style=for-the-badge)
+![Bug Bounty](https://img.shields.io/badge/Bug%20Bounty-Hunting-blue?style=for-the-badge)
 
----
+### 📖 Learn Burp Suite Through Real-World Practical Demonstrations
 
-## 📖 About This Handbook
+📄 **Complete PDF Handbook Included**
 
-The **Burp Suite Professional Handbook** is a practical learning resource created to help students, cybersecurity enthusiasts, bug bounty hunters, and aspiring penetration testers understand how Burp Suite is used in real-world web application security testing.
+👇
 
-This handbook combines theoretical concepts with practical workflows, providing a structured approach to learning web application security and vulnerability assessment.
+## 📥 Download Handbook
 
----
+### [Download Burp Suite Professional Handbook PDF](./BurpSuite_Handbook_By_Utkarsh_Vanjari.pdf)
 
-## 🎯 What You'll Learn
-
-✅ Burp Suite Fundamentals
-
-✅ Proxy Configuration & Traffic Interception
-
-✅ HTTP Request & Response Analysis
-
-✅ Repeater for Manual Security Testing
-
-✅ Intruder Attack Techniques
-
-✅ Decoder & Comparer
-
-✅ Authentication & Session Management Testing
-
-✅ Access Control Testing
-
-✅ IDOR Vulnerabilities
-
-✅ Cross-Site Scripting (XSS)
-
-✅ SQL Injection (SQLi)
-
-✅ Cross-Site Request Forgery (CSRF)
-
-✅ Server-Side Request Forgery (SSRF)
-
-✅ API Security Testing
-
-✅ OWASP Top 10 Overview
-
-✅ Bug Bounty Methodology
-
-✅ Vulnerability Reporting
-
-✅ Security Testing Best Practices
+</div>
 
 ---
 
-## 🛠 Tools Covered
+# 📖 About This Handbook
 
-* Burp Suite Professional
-* Web Browsers
-* HTTP/HTTPS Protocols
-* Web Security Concepts
-* Authentication Mechanisms
-* Session Management Techniques
+The **Burp Suite Professional Handbook** is a practical learning resource designed to help cybersecurity students, ethical hackers, VAPT enthusiasts, and bug bounty hunters understand how Burp Suite is used in real-world web application security testing.
+
+This handbook focuses on practical concepts and hands-on demonstrations rather than only theory. It covers the most important Burp Suite modules along with common testing methodologies used during professional security assessments.
 
 ---
 
-## 👨‍💻 Target Audience
+# 🎯 Objectives
 
-* Cybersecurity Students
-* Ethical Hackers
-* Bug Bounty Hunters
-* VAPT Learners
-* Security Researchers
-* Application Security Enthusiasts
+This handbook aims to:
 
----
-
-## 📂 Repository Contents
-
-```text
-Burp-Suite-Handbook/
-│
-├── Burp_Suite_Handbook.pdf
-├── Images/
-├── Chapters/
-└── README.md
-```
+- Understand Burp Suite Professional Architecture
+- Learn HTTP Request & Response Analysis
+- Perform Authentication Testing
+- Analyze Session Management Mechanisms
+- Conduct IDOR Testing
+- Use Repeater for Manual Security Testing
+- Perform Intruder-Based Attacks
+- Understand OWASP Top 10 Vulnerabilities
+- Learn Practical VAPT Methodologies
+- Develop Real-World Web Application Testing Skills
 
 ---
 
-## 📥 Download
+# 📚 Topics Covered
 
-Open the PDF file available in this repository to access the complete handbook.
+## Module 1 — Introduction to Burp Suite
+
+- Burp Suite Overview
+- Features of Burp Suite Professional
+- Installation & Configuration
+- Interface Familiarization
+
+## Module 2 — Proxy
+
+- Proxy Configuration
+- Intercepting Requests
+- HTTP Traffic Monitoring
+- Request Analysis
+
+## Module 3 — HTTP History
+
+- Traffic Review
+- Request Filtering
+- Identifying Application Endpoints
+
+## Module 4 — Repeater
+
+- Request Manipulation
+- Parameter Testing
+- Response Comparison
+
+## Module 5 — Intruder
+
+- Sniper Attack
+- Battering Ram Attack
+- Pitchfork Attack
+- Cluster Bomb Attack
+
+## Module 6 — Authentication Testing
+
+- Login Testing
+- Username Enumeration
+- Credential Analysis
+- Authentication Mechanism Review
+
+## Module 7 — Session Management
+
+- Cookie Analysis
+- Session Token Inspection
+- Session Security Assessment
+
+## Module 8 — IDOR Testing
+
+- User Enumeration
+- Access Control Validation
+- Object Reference Testing
+
+## Module 9 — Practical Security Testing
+
+- Request Manipulation
+- Parameter Tampering
+- Security Validation
+
+## Module 10 — OWASP Top 10 Concepts
+
+- Broken Access Control
+- Cryptographic Failures
+- Injection Attacks
+- Security Misconfiguration
+- Authentication Failures
 
 ---
 
-## ⚠ Disclaimer
+# 📸 Practical Demonstrations
 
-This handbook is intended strictly for educational and authorized security testing purposes only.
+This repository includes practical screenshots demonstrating:
 
-The concepts, techniques, and methodologies discussed should only be performed on systems and applications where explicit authorization has been granted.
+✅ Proxy Interception
 
-The author is not responsible for any misuse of the information provided.
+✅ HTTP History Analysis
 
----
+✅ Request Manipulation
 
-## 👤 Author
+✅ Repeater Testing
 
-### Utkarsh Vanjari
+✅ Intruder Attacks
 
-Cybersecurity | Cloud Security | Bug Bounty | VAPT
+✅ Authentication Testing
 
-🔗 LinkedIn:
-https://www.linkedin.com/in/utkarshvanjari/
+✅ Session Management Analysis
 
----
+✅ IDOR Testing
 
-## ⭐ Support
-
-If you found this handbook useful:
-
-⭐ Star this repository
-
-📢 Share it with the cybersecurity community
-
-🤝 Connect with me on LinkedIn
+All screenshots are available in the **images** folder.
 
 ---
 
-<p align="center">
-<b>Happy Learning & Happy Hacking 🚀</b>
-</p>
+# 🛡️ Skills Gained
+
+After completing this handbook, readers will be able to:
+
+- Configure Burp Suite Professional
+- Intercept and analyze HTTP requests
+- Test authentication mechanisms
+- Analyze sessions and cookies
+- Perform IDOR testing
+- Use Repeater effectively
+- Launch Intruder attacks
+- Understand VAPT workflows
+- Apply OWASP Top 10 concepts
+
+---
+
+# 👨‍💻 Author
+
+## Utkarsh Vanjari
+
+**Cyber Security Intern @ Maharashtra Cyber**
+
+AWS Certified | VAPT Enthusiast | Web Application Security Learner | Bug Bounty Learner
+
+---
+
+# 🤝 Contributions
+
+Suggestions, improvements, and constructive feedback are always welcome.
+
+Feel free to fork the repository and contribute.
+
+---
+
+# ⭐ Support
+
+If this handbook helped you learn Burp Suite Professional, please consider giving this repository a star.
+
+⭐ Your support motivates the creation of more cybersecurity learning resources.
+
+---
+
+<div align="center">
+
+### 🚀 Learn • Practice • Secure
+
+**Building safer applications through practical security testing.**
+
+</div>
